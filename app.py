@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request
 from bs4 import BeautifulSoup
 import requests
 
@@ -65,9 +65,8 @@ def review():
 
         print(product_info)
 
-
         return render_template("reviews.html", product_info=product_info, product_name=product_name)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
