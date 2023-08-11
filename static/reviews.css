@@ -63,3 +63,12 @@ footer {
 a {
     color: whitesmoke;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid whitesmoke;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: left;
+}
