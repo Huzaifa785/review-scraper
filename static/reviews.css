@@ -65,7 +65,6 @@ a {
 }
 
 table {
-    border-collapse: collapse;
     border: 2px solid whitesmoke;
     width: 100%;
     color: whitesmoke;
